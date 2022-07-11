@@ -26,3 +26,12 @@
     max-width: 100%;
     height: auto;
 }
+
+.testimonialSection{
+   background-color: white;
+   width: 50%; 
+   border-radius: 7px;
+   font-weight: 500;
+   padding: 35px;
+   box-shadow: 15px 15px 15px 7px; color: rgba(0,0,0,0.7);
+}

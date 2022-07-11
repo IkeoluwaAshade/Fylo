@@ -2,26 +2,42 @@ import React from 'react'
 import './Hero.css'
 import images from '../Media/images/illustration-1.svg'
 
-const Hero = () => {
+const Hero = ({header, text1, email, text2, text3, testimonial}) => {
   return (
     <div className='heroSection'>
         <div className='heroText-illustration'>
             <div className='heroText'>
              <h1 className=''>
-                All your files in one secure location, accessible anywhere
+                 {header}
              </h1>
 
              <p className=''>
-                Fylo stores your most important files in one secure location. Access them wherever you need, share and collaborate with friends,family, and co-workers.
+                 {text1}
              </p>
 
-               {/* <div className='email'>
+             <div>
+                {email}
+             </div>
+
+             <p className=''>
+                 {text2}
+             </p>
+            
+             <p className=''>
+                 {text3}
+             </p>
+
+             <div className='testimonialSection'>
+                {testimonial}
+             </div>
+
+                {/* <div className='email'>
                   <input onChange={(e) => setEmail(e.target.value)} type='email' placeholder='Enter your email...' />
                </div>
 
                <div className='password'>
                   <input onChange={(e) => setPassword (e.target.value)} type='password' placeholder='Enter your Password' />
-               </div> */}
+               </div>  */}
 
             </div>
 
